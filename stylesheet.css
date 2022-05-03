@@ -1,0 +1,26 @@
+* {
+    margin:0px;
+}
+h1 {
+    color:goldenrod;
+    text-align:center;
+    font-size:100;
+    font-family:algerian;
+    text-shadow:3px 7px 0px rgb(253, 233, 120);
+}
+body {
+    background-color:black;
+}
+table {
+    width:100%;
+}
+table tr td input {
+    width:100%;
+    background-color:deepskyblue;
+    color:white;
+    font-size:40;
+}
+table tr td input:hover {
+    cursor:pointer;
+    background-color:darkcyan;
+}
