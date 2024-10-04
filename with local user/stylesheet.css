@@ -1,0 +1,125 @@
+:root {
+    ---margin-top-initial-red:0px;
+    --margin-top-final-red:0px;
+    --margin-top-initial-blue:0px;
+    --margin-top-final-blue:0px;
+}
+* {
+    margin:0;
+}
+h1 {
+    color:goldenrod;
+    text-align:center;
+    font-size:100;
+    font-family:algerian;
+    text-shadow:3px 7px 0px rgb(253, 233, 120);
+}
+body {
+    background-color:black;
+}
+.ground {
+    width:1100px;
+    margin:auto;
+    height:500px;
+}
+table {
+    background-image: url("./../media/images/grass land.jfif");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+table .opponents-r img {
+    margin-left:0;
+    margin-top:0;
+    border:4px solid green;
+    border-right:none;
+}
+table .opponents-b img {
+    margin-right:0;
+    margin-top:0;
+    border:4px solid green;
+    border-left:none;
+}
+.b-kill:hover {
+    border:4px solid red;
+    border-left:none;
+    cursor:pointer;
+}
+.r-kill:hover {
+    border:4px solid red;;
+    border-right:none;
+    cursor:pointer;
+}
+table {
+    width:100%;
+    height:100%;
+}
+.opponents-b , .opponents-r {
+    width:200px;
+}
+#redDiceRoll {
+    width:100%;
+    background-color:red;
+    color:white;
+    font-size:30;
+}
+#redDiceRoll:hover {
+    background-color:rgb(96, 3, 3);
+    cursor: pointer;
+}
+.opponents-r-disable {
+    background-color:rgb(49, 1, 1) !important;
+}
+.opponents-r-disable:hover {
+    cursor:no-drop !important;
+}
+#blueDiceRoll {
+    width: 100%;
+    background-color:blue;
+    color:white;
+    font-size:30;
+}
+#blueDiceRoll:hover {
+    background-color:rgb(4, 4, 132);
+    cursor:pointer;
+}
+.opponents-b-disable {
+    background-color:rgb(1, 1, 52) !important;
+}
+.opponents-b-disable:hover {
+    cursor:no-drop !important;
+}
+#redBullet {
+    position:absolute;
+    width:0px;
+    height:20px;
+    margin-top:50px;
+}
+#blueBullet {
+    position:absolute;
+    width:0px;
+    height:20px;
+    margin-top:40px;
+}
+@keyframes red-bullet {
+    0% {
+        margin-top:var(--margin-top-initial-red);
+        margin-left:290px;
+    }
+    100% {
+        margin-top:var(--margin-top-final-red);
+        margin-left:795px;
+    }
+}
+@keyframes blue-bullet {
+    0% {
+        margin-top:var(--margin-top-initial-blue);
+        margin-left:795px;
+    }
+    100% {
+        margin-top:var(--margin-top-final-blue);
+        margin-left:290px;
+    }
+}
+.l-img, .r-img {
+    width:100px;
+}

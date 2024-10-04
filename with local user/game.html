@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>
+            War Land
+        </title>
+        <link rel="stylesheet" href="stylesheet.css" />
+    </head>
+    <body>
+        <h1 id="winning">
+            War Land
+        </h1>
+        <div class="ground">
+            <table>
+                <tr>
+                    <td class="l-img">
+                        <img src="./../media/images/red opponent/king.png" id="redKing" width="100%" height="30%" />
+                    </td>
+                    <img src="./../media/images/red opponent/red bullet.png" id = "redBullet" />
+                    <img src="./../media/images/blue opponent/bluet bullet.png" id = "blueBullet" />
+                    <td class ="opponents-r">
+                        <img src="./../media/images/red opponent/stage0.jpg" id="r0" onclick="rKill(1)" height="100px" width="100%" />
+                        <img src="./../media/images/red opponent/stage0.jpg" id="r1" onclick="rKill(2)" height="100px" width="100%" />
+                        <img src="./../media/images/red opponent/stage0.jpg" id="r2" onclick="rKill(3)" height="100px" width="100%" />
+                        <img src="./../media/images/red opponent/stage0.jpg" id="r3" onclick="rKill(4)" height="100px" width="100%" />
+                        <img src="./../media/images/red opponent/stage0.jpg" id="r4" onclick="rKill(5)" height="100px" width="100%" />
+                    </td>
+                    <td class ="middle-gruond"></td>
+                    <td class ="opponents-b">
+                        <img src="./../media/images/blue opponent/stage0.jpg" id="b0" onclick="bKill(1)" height="100px" width="100%" />
+                        <img src="./../media/images/blue opponent/stage0.jpg" id="b1" onclick="bKill(2)" height="100px" width="100%" />
+                        <img src="./../media/images/blue opponent/stage0.jpg" id="b2" onclick="bKill(3)" height="100px" width="100%" />
+                        <img src="./../media/images/blue opponent/stage0.jpg" id="b3" onclick="bKill(4)" height="100px" width="100%" />
+                        <img src="./../media/images/blue opponent/stage0.jpg" id="b4" onclick="bKill(5)" height="100px" width="100%" />
+                    </td>
+                    <td class="r-img" >
+                        <img src="./../media/images/blue opponent/king.png" id="blueKing" width="100%" height="30%" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="l-img" >
+                        <img src="./../media/images/skull.png " width="100%" height="100%" />
+                    </td>
+                    <td>
+                        <input type="button" id = "redDiceRoll" value="5" />
+                    </td>
+                    <td></td>
+                    <td>
+                        <input type="button" id="blueDiceRoll" value="5" />
+                    </td>
+                    <td class="r-img" >
+                        <img src="./../media/images/skull.png " width="100%" height="100%" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+red solder
+
+r0-mt = 50
+r1-mt = 160
+r2-mt = 265
+r3-mt = 375
+r4-mt = 480
+
+
+blue solder
+
+b0-mt = 40
+b1-mt = 150
+b2-mt = 255
+b3-mt = 365
+b4-mt = 470
